@@ -274,7 +274,7 @@ const nextBtn=document.getElementById('nextBtn');
 const fill = nextBtn.querySelector('.fill');
 
 const messages = [
-  "Mỗi người phụ nữ là một bông hoa – tỏa hương sắc riêng làm đẹp cho cuộc đời.\nChúc em Thảo Vy luôn rạng rỡ, hạnh phúc, luôn xinh đẹp và mãi yêu anh Khôi nhé. 🌷"
+  "Nay 20/10 Khôi cũng có đôi lời muốn nói, chúc bạn lúc nào cũng ngoan ngoan, hạnh phúc và vui vẻ ko phải lo nghĩ. Ý là cũng chưa quen biết được bao lâu nhưng mà cũng hiểu nhau nói chuyện hợp nhau. Cũng cảm ơn vy vì lúc tui buồn đã quan tâm, an ủi tui. Cũng mong sau này 2 đứa được gặp gỡ nói chuyện với nhau nhiều hơn. Mong Vy lúc nào mọi chuyện cũng suôn sẻ, thực hiện được ước mơ cũng mik hen. Ngại quá trời ơi!!!! 🌷"
 ];
 
 let clickCount=0;
@@ -422,9 +422,10 @@ function startScene(){
   },2000);
 }
 </script>
-        <!-- Thêm nhạc nền tự động phát -->
-    <audio id="background-music" loop autoplay>
-        <source src="./sounds/background.mp3" type="audio/mpeg">
-    </audio>
+<audio id="background-music" loop autoplay muted>
+    <source src="./sounds/background.mp3" type="audio/mpeg">
+</audio>
+
+<button id="unmute-button">Bấm để Nghe Nhạc 🎶</button>
 </body>
 </html>
